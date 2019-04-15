@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+<title>WT1</title>
+</head>
+
+<body>
+
+<div style="width:100%; height:100px; background-color:aliceblue; font-family: Roboto, 'serif'; text-align: center;"><h1>Shakespeare Co.</h1><br><h6>Preserving your beauty©</h6></div>
+	
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Method 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Method 2</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+	<ul>
+	 <li> Who are we? <br>
+	Shakespeare Co. is an young beauty product company that brings innovative solutions to the field of beauty preservation.</li>
+	  
+	<li>What do we do? <br>
+	Here at Shakespeare Co., we have one goal: preserve your beauty. Beauty does not last forever on its own, and we think that that is the greatest tragedy of life. Everyone should strive to maintain their beauty, as well as seek out ways to continue their beauty beyond their life. Shakespeare Co. frames its products around this facts, and offers two different methods of eternal beauty preservation. Each method has its pros and cons, but both are guaranteed to make you beautiful forever.</li>
+		<li>Why are we better? <br>
+		Other Beauty companies tout the power of their products, citing the fact that they will last for <i>hours </i>or<i> days</i>. These products merely subdue the constant attack of time, while ours  soundly defeat it. Our products are even resilient against the power of Nature, another force that seeks to destroy your beauty. Additionally, our products use all natural ingredients such as sound devices, symbolism, and imagery. </li>
+		</ul>
+</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Method 1: Procreation <br>
+The first way to maintain your beauty is to procreate. As some of you may know, children live and carry on your family name and preserve your genes. Having a child will bestow your beauty onto them, extending its reach. Your child will have some of your beautiful features, and give you an excuse when someone asks what happened to you in old age. Your ultimate goal should be to find a suitable husband or wife and make a child, directly preserving your beauty and lineage forever. 
+	  <ul>
+	<li>Step 1:
+		Fall in love with someone. </li>
+	<li>Step 2:
+		Marry this person.</li>
+	<li>Step 3:
+		Have a child.</li>
+		  </ul>
+These 3 simple steps will allow your beauty to last forever.
+</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Method 2: Metaphorical <br>
+The second method of beauty preservation is what we call “Metaphorical”. The main idea of this method is to create a work of art that totally encapsulates your beauty. The most common form of art that is used is poetry. The key is to create a perfect description of yourself using only poetic devices and language, and then share this poem with as many people as possible. If done correctly, you will become a famous poet and your work will last forever, therefore preserving your beauty. This method has the potential to be much more effective than method 1, however it is also quite difficult to achieve, as writing the perfect poem(s) is never simple.
+	  <ul>
+	<li>Step 1:
+		Create a work of art, preferably a poem, that captures your beauty.</li>
+	<li>Step 2:
+		Publish and share your perfect art.</li>
+	<li>Step 3:
+		Become famous, thereby preserving your likeness within the art.</li>
+		  </ul>
+	  These steps are the most straightforward way to extend the lifespan of your beauty to eternity.
+
+</div>
+</div>
+		
+	
+	<div style="width:100%; height:30px; font-size: 10px; font-family: Roboto; text-align: center">Copyright Shakespeare Co. LLC 2019. All right Reserved. </div>
+	
+<button id="rationaleButton" style="width:10%; height:20px; font-size: 14px;" onclick="toggleRationale()"> Reveal Rationale</button>
+	<div style="" id="rationale">This written task is addressing the learning outcomes for part 4 of the course. The primary learning outcome I address is "Explore literary works in detail", focusing on William Shakespeare's series of 154 sonnets. In this task, I explore many of the themes that Shakespeare addresses in his sonnets, including aging, having children, time vs man, and the preservation of beauty. I decided to create a website which is advertising beauty products, which are actually methods Shakespeare uses in his sonnets to preserve the Young Man. The task is actually a website, using real formatting and elements that are used in real websites. The about page follows a typical FAQ structure, mirroring similar about pages for real companies. The intended audience of this task is young people who are looking for beauty tips, however this is somewhat ironic because the methods described do not affect the physical beauty of the user. This is mirroring the audience of typical beauty product pages, which are usually aimed at young girls looking to buy their products. The purpose of the website is to encourage the audience to have children or be immortalized in poetry, similar to the purpose of many of the Shakespearean sonnets it is based on. Notably, Sonnets 2 and 18 each have a purpose that is directly related to the two methods of beauty preservation on the website. The context of the task has been changed from a private poem to a public website, reflecting modern capitalism and new ideas about beauty.	</div>
+		<script> 
+			document.getElementById("rationaleButton").addEventListener("click",toggleRationale());
+		function toggleRationale() {
+  var x = document.getElementById("rationale");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
